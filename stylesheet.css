@@ -1,0 +1,101 @@
+
+
+.cuadrado{
+height: 80px;
+padding:20px;
+background-color: #FF5F00;
+color: #00092C;
+font-size: 38px;
+line-height: 1px;
+border-radius: 4px;
+font-family: 'calibri';
+}
+
+.cuadrado h1{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+
+.imagen-login{
+   position: absolute;
+   top: 3%;
+   margin-left: 90%;
+}
+
+.img-mascota{
+    position: absolute;
+top: 400px; left: 600px;
+}
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-pared-pintada-blanco_53876-138197.jpg?w=2000);
+  }
+
+.crear-mascota{
+    width:400px;
+    background: #00092C;
+    padding: 30px;
+    margin-top: 50px;
+    position: absolute;
+    left: 40px;
+    border-radius: 6px;
+    font-family: 'calibri';
+    color: white;
+}
+
+.Parrafo{
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+    right: 50px;
+    font-family: Cursive;
+    font-size: 26px;
+
+}
+
+.crear-mascota h4 {
+    margin-top: 0%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.datosm {
+    width: 95%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #FF5F00;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    
+  }
+  .crear-mascota .botons {
+    width: 100%;
+    background: #FF5F00;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-family: Sans-serif;
+    font-size: 16px;
+    border-radius: 15px;
+    
+  }
+
+.Pie-de-Pagina{
+    margin-top: 820px;
+    padding: 2px;
+    width: 100%;
+    text-align: center;
+    background: #00092C;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    font-family: Sans-serif;
+
+}
+
+ 
