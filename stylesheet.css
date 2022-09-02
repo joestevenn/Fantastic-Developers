@@ -71,7 +71,7 @@ body {
     color: white;
     
   }
-  .crear-mascota .botons {
+.crear-mascota .botons {
     width: 100%;
     background: #FF5F00;
     border: none;
@@ -80,9 +80,15 @@ body {
     margin: 16px 0;
     font-family: Sans-serif;
     font-size: 16px;
-    border-radius: 15px;
-    
-  }
+    border-radius: 15px;    
+}
+.botons{
+    cursor: pointer;
+}
+.botons:hover{
+    background-color: rgb(51, 197, 255);
+    transform: scale(1.03);    
+}
 
 .Pie-de-Pagina{
     margin-top: 820px;
