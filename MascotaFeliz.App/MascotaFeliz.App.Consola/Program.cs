@@ -8,10 +8,12 @@ namespace MascotaFeliz.App.Consola
     class Program
     {
         private static IRepositorioDueno _repoDueno = new RepositorioDueno(new Persistencia.AppContext());
+        private static IRepositorioVeterinario _repoVeterinario = new RepositorioVeterinario(new Persistencia.AppContext());
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            AddDueno();
+            //AddDueno();
+            AddVeterinario();
         }
         private static void AddDueno()
             {
@@ -26,5 +28,19 @@ namespace MascotaFeliz.App.Consola
                 };
                 _repoDueno.AddDueno(dueno);
             }
+        private static void AddVeterinario()
+            {
+                var veterinario = new Veterinario
+                {
+                    //Cedula = "1212",
+                    Nombres = "Joe",
+                    Apellidos = "Sin fair",
+                    Direccion = "Villa Carolina",
+                    Telefono = "115698",
+                    TarjetaProfesional = "A30085"
+                };
+                _repoVeterinario.AddVeterinario(veterinario);
+            }
     }
 }
+
