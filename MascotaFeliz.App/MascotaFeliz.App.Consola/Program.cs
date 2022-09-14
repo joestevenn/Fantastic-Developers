@@ -48,10 +48,10 @@ namespace MascotaFeliz.App.Consola
                 var mascota = new Mascota
                 {
                     //Cedula = "1212",
-                    Nombre = "kimy",
-                    Color = "Blanco",
-                    Especie = "Canina",
-                    Raza = "Pincher"                    
+                    Nombre = "pilli",
+                    Color = "Naranja",
+                    Especie = "Felina",
+                    Raza = "Garfield"                    
                 };
                 _repoMascota.AddMascota(mascota);
             }
