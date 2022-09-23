@@ -3,13 +3,12 @@
 @{
 }
 <h1> Lista Veterinarios</h1>
+<a class = "btn btn-primary table-btn" asp-page="./EditarVeterinarios" class="btn-default">Adicionar Veterinario</a>
 <table class="table">
     <tr>
-
         <th>Nombres</th>
         <th>Apellidos</th>
         <th>Tarjeta</th>
-
     </tr>
      @foreach (var veterinario in Model.listaVeterinarios)
      {
@@ -36,4 +35,3 @@
      } 
     
 </table>
-<a class = "btn btn-primary table-btn" asp-page="./EditarVeterinarios" class="btn-default">Adicionar Veterinario</a>
