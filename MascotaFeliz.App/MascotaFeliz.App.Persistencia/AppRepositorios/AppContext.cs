@@ -8,7 +8,7 @@ namespace MascotaFeliz.App.Persistencia
         public DbSet<Persona> Personas {get;set;}
         public DbSet<Veterinario> Veterinarios {get;set;}
         public DbSet<Dueno> Duenos {get;set;}
-        public DbSet<VisitaPyP> VisitasPyP {get;set;}
+        public DbSet<VisitaPyP> VisitaPyPs {get;set;}
         public DbSet<Historia> Historias {get;set;}
         public DbSet<Mascota> Mascotas {get;set;}
 
