@@ -6,99 +6,79 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
 {
-    public class RepositorioMascota : IRepositorioMascota
-    {
-        /// <summary>
-        /// Referencia al contexto de Mascota
-        /// </summary>
-        private readonly AppContext _appContext;
-        /// <summary>
-        /// Metodo Constructor Utiiza 
-        /// Inyeccion de dependencias para indicar el contexto a utilizar
-        /// </summary>
-        /// <param name="appContext"></param>//
-        
-        public RepositorioMascota(AppContext appContext)
-        {
-            _appContext = appContext;
-        }
+    public class RepositorioMascota:IRepositorioMascota
+    {
+        /// <summary>
+        /// Referencia al contexto de Mascota
+        /// </summary>
+        private readonly AppContext _appContext;
+        /// <summary>
+        /// Metodo Constructor Utiiza 
+        /// Inyeccion de dependencias para indicar el contexto a utilizar
+        /// </summary>
+        /// <param name="appContext"></param>//
+        public RepositorioMascota(AppContext appContext){
+            _appContext = appContext;
+        }
 
-        public Mascota AddMascota(Mascota Mascota)
-        {
-            var MascotaAdicionado = _appContext.Mascotas.Add(Mascota);
-            _appContext.SaveChanges();
-            return MascotaAdicionado.Entity;
-        }
+        public IEnumerable<Mascota> GetAllMascotas(){
+            //return GetAllMascotas_();
+            return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia");
+        }
 
-        public void DeleteMascota(int idMascota)
-        {
-            var MascotaEncontrado = _appContext.Mascotas.FirstOrDefault(d => d.Id == idMascota);
-            if (MascotaEncontrado == null)
-                return;
-            _appContext.Mascotas.Remove(MascotaEncontrado);
-            _appContext.SaveChanges();
-        }
+        public IEnumerable<Mascota> GetAllMascotas_(){
+            return _appContext.Mascotas;
+        }
 
-       public IEnumerable<Mascota> GetAllMascotas()
-        {
-            return GetAllMascotas_();
-        }
+        public Mascota AddMascota(Mascota mascota){
+            var mascotaAdicionado = _appContext.Mascotas.Add(mascota);
+            _appContext.SaveChanges();
+            return mascotaAdicionado.Entity;
+        }
 
-        public IEnumerable<Mascota> GetMascotasPorFiltro(string filtro)
-        {
-            var Mascotas = GetAllMascotas(); // Obtiene todos los saludos
-            if (Mascotas != null)  //Si se tienen saludos
-            {
-                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
-                {
-                    Mascotas = Mascotas.Where(s => s.Nombre.Contains(filtro));
-                }
-            }
-            return Mascotas;
-        }
+        public Mascota UpdateMascota(Mascota mascota){
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault( d => d.Id == mascota.Id);
+            if(mascotaEncontrado != null)
+            {
+                mascotaEncontrado.Nombre=mascota.Nombre;
+                mascotaEncontrado.Color=mascota.Color;
+                mascotaEncontrado.Especie=mascota.Especie;
+                mascotaEncontrado.Raza=mascota.Raza;
+                mascotaEncontrado.Dueno=mascota.Dueno;
+                mascotaEncontrado.Veterinario=mascota.Veterinario;
+                
 
-        public IEnumerable<Mascota> GetAllMascotas_()
-        {
-            return _appContext.Mascotas;
-        }
+                _appContext.SaveChanges();
+            }
+            return mascotaEncontrado;
+        }
 
-       public Mascota GetMascota(int idMascota)
-        {
+        public void DeleteMascota(int idMascota){
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(d => d.Id == idMascota);
+            if (mascotaEncontrado == null)
+                return;
+            _appContext.Mascotas.Remove(mascotaEncontrado);
+            _appContext.SaveChanges();
+        }
+
+        public Mascota GetMascota(int idMascota){
+            //return _appContext.Mascotas.FirstOrDefault(d => d.Id == idMascota);
             return _appContext.Mascotas.Include("Dueno").Include("Veterinario").Include("Historia").FirstOrDefault(d => d.Id == idMascota);
         }
 
-        public Mascota UpdateMascota(Mascota Mascota)
-        {
-            var MascotaEncontrado = _appContext.Mascotas.FirstOrDefault(d => d.Id == Mascota.Id);
-            if (MascotaEncontrado != null)
-            {
-                MascotaEncontrado.Nombre = Mascota.Nombre;
-                MascotaEncontrado.Color = Mascota.Color;
-                MascotaEncontrado.Especie = Mascota.Especie;
-                MascotaEncontrado.Raza = Mascota.Raza;                
-                _appContext.SaveChanges();
-            }
-            return MascotaEncontrado;
-        }
-
-        public Veterinario AsignarVeterinario(int idMascota, int idVeterinario)
-        {
-            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
-            if (mascotaEncontrado != null)
+        public IEnumerable<Mascota> GetMascotasPorFiltro(string filtro){
+            var mascotas = GetAllMascotas();
+            if(mascotas !=null)
             {
-                var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
-                if (veterinarioEncontrado != null)
+                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
                 {
-                    mascotaEncontrado.Veterinario = veterinarioEncontrado;
-                    _appContext.SaveChanges();
+                    mascotas = mascotas.Where(s => s.Nombre.Contains(filtro));
                 }
-                return veterinarioEncontrado;
             }
-            return null;
-        }   
+            return mascotas;
+        }
 
-        public Dueno AsignarDueno(int idMascota, int idDueno)
-        {
+        public Dueno AsignarDueno(int idMascota, int idDueno){
             var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
             if (mascotaEncontrado != null)
             {
@@ -111,10 +91,27 @@ namespace MascotaFeliz.App.Persistencia
                 return duenoEncontrado;
             }
             return null;
-        }   
+        }
 
-        public Historia AsignarHistoria(int idMascota, int idHistoria)
-        {
+        public Veterinario AsignarVeterinario(int idMascota, int idVeterinario){
+            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
+            if (mascotaEncontrado != null)
+            {
+                var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
+                if (veterinarioEncontrado != null)
+                {
+                    mascotaEncontrado.Veterinario = veterinarioEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return veterinarioEncontrado;
+            }
+            return null;
+        } 
+
+
+           
+
+        public Historia AsignarHistoria(int idMascota, int idHistoria){
             var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
             if (mascotaEncontrado != null)
             {
@@ -128,5 +125,6 @@ namespace MascotaFeliz.App.Persistencia
             }
             return null;
         }
-    }
+
+    }
 }

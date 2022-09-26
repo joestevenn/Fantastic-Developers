@@ -40,7 +40,7 @@ namespace MascotaFeliz.App.Consola
 
             //AddHistoria();
             //AsignarVisitaPyP(2);
-            ListarMascotas();
+            //ListarMascotas();
 
         }
 
@@ -81,7 +81,8 @@ namespace MascotaFeliz.App.Consola
                 Nombre = "Ragnar",
                 Color = "Sable",
                 Especie = "Canino",
-                Raza = "Husky"
+                Raza = "Husky",
+
             };
             _repoMascota.AddMascota(mascota);
 
@@ -182,22 +183,22 @@ namespace MascotaFeliz.App.Consola
 
         }
 
-        /*private static void AsignarVeterinario()
+        private static void AsignarVeterinario()
         {
-            var veterinario = _repoMascota.AsignarVeterinario(1, 2);
+            var veterinario = _repoMascota.AsignarVeterinario(7, 2);
             Console.WriteLine(veterinario.Nombres + " " + veterinario.Apellidos);
         }
 
         private static void AsignarDueno()
         {
-            var dueno = _repoMascota.AsignarDueno(1, 4);
+            var dueno = _repoMascota.AsignarDueno(7, 1);
             Console.WriteLine(dueno.Nombres + " " + dueno.Apellidos);
         }
 
         private static void AsignarHistoria()
         {
-            var historia = _repoMascota.AsignarHistoria(1,1);
-        }*/
+            var historia = _repoMascota.AsignarHistoria(7,1);
+        }
 
 
     }
