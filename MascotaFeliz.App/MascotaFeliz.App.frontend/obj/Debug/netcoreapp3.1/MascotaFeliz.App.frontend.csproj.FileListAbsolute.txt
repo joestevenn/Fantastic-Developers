@@ -91,3 +91,4 @@ C:\Mascotas\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\
 C:\Mascotas\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\EditarMascotas.cshtml.g.cs
 C:\Mascotas\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\DetallesVeterinarios.cshtml.g.cs
 C:\Mascotas\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EditarVeterinarios.cshtml.g.cs
+C:\Mascotas\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Mascotas\AsignarDueno.cshtml.g.cs

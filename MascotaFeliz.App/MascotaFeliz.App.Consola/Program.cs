@@ -29,7 +29,7 @@ namespace MascotaFeliz.App.Consola
             //BuscarVeterinario(1);
             //BuscarMascota(1);
 
-            AddMascota();
+            //AddMascota();
             //AsignarVeterinario();
             //AsignarDueno();
             //AsignarHistoria();
@@ -40,7 +40,7 @@ namespace MascotaFeliz.App.Consola
 
             //AddHistoria();
             //AsignarVisitaPyP(2);
-            //ListarMascotas();
+            ListarMascotas();
 
         }
 
