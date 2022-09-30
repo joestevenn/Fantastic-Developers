@@ -3,7 +3,7 @@
 @{
 }
 <h2>Agregar o editar Veterinarios</h2>
-
+<div class="prueba4">
 <form method="post" >
     <div class="form-group">
         <input type="hidden" asp-for = "veterinario.Id" />
@@ -18,9 +18,11 @@
         <input asp-for="veterinario.Telefono" class="form-control" required>
         <label asp-for="veterinario.TarjetaProfesional"></label>
         <input asp-for="veterinario.TarjetaProfesional" class="form-control" required>
-
+        <br>
         <button type="submit" class="btn btn-primary">Grabar</button>
     </div>
 </form>
-
+</div>
+<div class="prueba2">
 <a asp-page="./ListaVeterinarios" class="btn-default">Lista de ListaVeterinarios </a>
+</div>

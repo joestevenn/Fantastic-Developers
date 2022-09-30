@@ -6,10 +6,34 @@ a.navbar-brand {
   text-align: center;
   word-break: break-all;
 }
-.prueba{
-  background-color: aquamarine;
+.prueba {
+  width: 40%;
+  background: linear-gradient(220.55deg, #0f1974 0%, #0B0A47 100%);
+  border-radius: 10px;
+  padding: 2%;
+  color: #fff;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+.prueba2 {
+  margin-top: 2%;
+  width: 17%;
+  background: linear-gradient(220.55deg, #0f1974 0%, #0B0A47 100%);
+  border-radius: 5px;
+  padding: 1%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.prueba3 {
+  background: linear-gradient(220.55deg, #C5EDF5 0%, #4A879A 100%);
+  border-radius: 5px;
+  padding: 1%;
+  margin-top: 2%;
 }
 
+.prueba4 {
+  background: linear-gradient(220.55deg, #C5EDF5 0%, #4A879A 100%);
+  border-radius: 5px;
+  padding: 1%
+}
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
@@ -17,13 +41,13 @@ a {
 
 .btn-primary {
   color: #fff;
-  background-color: #1b6ec2;
+  background-color: #001C63;
   border-color: #1861ac;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #1b6ec2;
+  background-color: #001C63;
   border-color: #1861ac;
 }
 
@@ -64,12 +88,35 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background: linear-gradient(220.55deg, #24CFC5 0%, #001C63 100%);  
 }
+
+.Titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.MapaGL {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.VideoY {
+  margin-left: 20%;
+}
+
+.MapaG {
+  margin-top: auto;
+  color: #fff;
+
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
-  background-color: black;
+  background-color: #102d75;
+  text-align: center;
 }

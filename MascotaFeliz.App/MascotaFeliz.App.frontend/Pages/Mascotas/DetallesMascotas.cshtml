@@ -2,7 +2,10 @@
 @model MascotaFeliz.App.Pages.DetallesMascotasModel
 @{
 }
-<h1>Detalles de la Mascota</h1>
+
+<div class="prueba">
+
+<h1><strong>Detalles de la Mascota</strong></h1>
 
 <div>
     Id: @Model.mascota.Id
@@ -27,5 +30,7 @@
 <div>
     Nombre del veterinario: @Model.mascota.Veterinario.Nombres
 </div>
-
+</div>
+<div class="prueba2">
 <a asp-page="./ListaMascotas" class="btn-default">Lista de Mascotas </a>
+</div>

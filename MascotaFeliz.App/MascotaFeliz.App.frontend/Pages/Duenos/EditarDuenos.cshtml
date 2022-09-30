@@ -3,7 +3,7 @@
 @{
 }
 <h2>Agregar o editar Dueños</h2>
-
+<div class="prueba4">
 <form method="post" >
     <div class="form-group">
         <input type="hidden" asp-for = "dueno.Id" />
@@ -18,9 +18,12 @@
         <input asp-for="dueno.Telefono" class="form-control" required>
         <label asp-for="dueno.Correo"></label>
         <input asp-for="dueno.Correo" class="form-control" required>
-
+        <br>
         <button type="submit" class="btn btn-primary">Grabar</button>
     </div>
 </form>
+</div>
 
+<div class="prueba2">
 <a asp-page="./ListaDuenos" class="btn-default">Lista de Dueños </a>
+</div>
