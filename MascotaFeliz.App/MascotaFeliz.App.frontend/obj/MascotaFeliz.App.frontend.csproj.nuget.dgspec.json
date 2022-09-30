@@ -1,35 +1,43 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fantastic-Developers\\mascotafeliz.app\\mascotafeliz.app.frontend\\MascotaFeliz.App.frontend.csproj": {}
+    "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.frontend\\MascotaFeliz.App.frontend.csproj": {}
   },
   "projects": {
-    "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj": {
+    "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
+        "projectUniqueName": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
         "projectName": "MascotaFeliz.App.Consola",
-        "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Consola\\obj\\",
+        "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-                "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+              "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+                "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
               },
-              "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
-                "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
+              "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+                "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj"
               }
             }
           }
@@ -42,6 +50,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -56,39 +65,54 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.29, 3.1.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+    "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
         "projectName": "MascotaFeliz.App.Dominio",
-        "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\obj\\",
+        "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -100,6 +124,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -114,40 +139,49 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Fantastic-Developers\\mascotafeliz.app\\mascotafeliz.app.frontend\\MascotaFeliz.App.frontend.csproj": {
+    "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.frontend\\MascotaFeliz.App.frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fantastic-Developers\\mascotafeliz.app\\mascotafeliz.app.frontend\\MascotaFeliz.App.frontend.csproj",
+        "projectUniqueName": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.frontend\\MascotaFeliz.App.frontend.csproj",
         "projectName": "MascotaFeliz.App.frontend",
-        "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\mascotafeliz.app.frontend\\MascotaFeliz.App.frontend.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\mascotafeliz.app.frontend\\obj\\",
+        "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.frontend\\MascotaFeliz.App.frontend.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.frontend\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj": {
-                "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj"
+              "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj": {
+                "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Consola\\MascotaFeliz.App.Consola.csproj"
               },
-              "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-                "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+              "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+                "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
               }
             }
           }
@@ -160,16 +194,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.29, 3.1.29]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -178,33 +220,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+    "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
         "projectName": "MascotaFeliz.App.Persistencia",
-        "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-        "outputPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-                "projectPath": "C:\\Fantastic-Developers\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+              "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+                "projectPath": "C:\\Fantastic-Developers\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
               }
             }
           }
@@ -217,6 +267,7 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -245,7 +296,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -254,7 +306,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -194,7 +194,6 @@ C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netc
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Persistencia.dll
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Dominio.pdb
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Persistencia.pdb
-C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.csprojAssemblyReference.cache
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.AssemblyInfoInputs.cache
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.AssemblyInfo.cs
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.csproj.CoreCompileInputs.cache
@@ -202,3 +201,5 @@ C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netc
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.genruntimeconfig.cache
+C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.csproj.AssemblyReference.cache
+C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.GeneratedMSBuildEditorConfig.editorconfig

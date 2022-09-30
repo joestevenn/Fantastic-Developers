@@ -93,7 +93,6 @@ C:\Mascotas\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\
 C:\Mascotas\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\EditarVeterinarios.cshtml.g.cs
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.exe
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.exe
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.deps.json
@@ -149,7 +148,6 @@ C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\net
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Dominio.pdb
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Persistencia.pdb
-C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.csprojAssemblyReference.cache
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.AssemblyInfoInputs.cache
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.AssemblyInfo.cs
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.csproj.CoreCompileInputs.cache
@@ -180,7 +178,11 @@ C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\net
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.Views.pdb
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.csproj.CopyComplete
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\staticwebassets\MascotaFeliz.App.frontend.StaticWebAssets.Manifest.cache
-C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\staticwebassets\MascotaFeliz.App.frontend.StaticWebAssets.xml
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.dll
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.pdb
 C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.genruntimeconfig.cache
+C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.deps.json
+C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.runtimeconfig.json
+C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.runtimeconfig.dev.json
+C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.csproj.AssemblyReference.cache
+C:\Fantastic-Developers\MascotaFeliz.App\MascotaFeliz.App.frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.frontend.GeneratedMSBuildEditorConfig.editorconfig
